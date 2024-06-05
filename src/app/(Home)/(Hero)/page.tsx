@@ -8,7 +8,7 @@ import Phone from '@/components/Phone';
 import { Check } from 'lucide-react';
 import Image from 'next/image';
 
-const features = [
+const FEATURES = [
   'High-quality, durable material',
   '5 year print guarantee',
   'Modern Iphone models supported',
@@ -32,14 +32,14 @@ const HeroSection = () => {
 
             {/* //* Title */}
             <h1 className="relative mt-16 w-fit text-balance text-5xl font-bold !leading-tight tracking-tight text-gray-900 md:text-6xl lg:text-7xl">
-              Your Image on a
+              Your Image on a&nbsp;
               <span className="bg-green-600 px-2 text-white">Custom</span>
-              Phone Case
+              &nbsp;Phone Case
             </h1>
 
             {/* //* Description */}
             <p className="mt-8 max-w-prose text-balance text-center text-lg md:text-wrap lg:pr-10 lg:text-left">
-              Capture your favorite memories with your own,
+              Capture your favorite memories with your own,&nbsp;
               <span className="font-semibold">one-of-one</span> phone case.
               CaseCanvas allows you to protect your memories, not just your
               phone case.
@@ -48,7 +48,7 @@ const HeroSection = () => {
             {/* //* Features */}
             <ul className="mt-8 flex flex-col items-center space-y-2 text-left font-medium sm:items-start">
               <div className="space-y-2">
-                {features.map((feature, index) => (
+                {FEATURES.map((feature, index) => (
                   <li
                     key={index}
                     className="flex items-center gap-1.5 text-left"
