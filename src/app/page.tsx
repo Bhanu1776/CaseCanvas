@@ -1,6 +1,7 @@
 import { Examples } from '@/app/(Home)/(Examples)/page';
 import HeroSection from '@/app/(Home)/(Hero)/page';
 import Testimonials from '@/app/(Home)/(Testimonials)/page';
+import Working from '@/app/(Home)/(Working)/page';
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSection />
       <Testimonials />
       <Examples />
+      <Working />
     </div>
   );
 }
