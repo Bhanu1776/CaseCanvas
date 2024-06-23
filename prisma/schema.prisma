@@ -7,10 +7,47 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model Configuration{
-  id String @id @default(cuid())
-  width Int
-  height Int
-  imageUrl  String
+// enum is nothing but a list of valid entries,
+// As you can see, we are not providing in a key-value pairs
+enum OrderStatus {
+  fulfilled
+  shipped
+  awaiting_shipment
+}
+
+enum PhoneModel {
+  iphonex
+  iphone11
+  iphone12
+  iphone13
+  iphone14
+  iphone15
+}
+
+enum CaseMaterial {
+  silicone
+  polycarbonate
+}
+
+enum CaseFinish {
+  smooth
+  textured
+}
+
+enum CaseColor {
+  black
+  blue
+  rose
+}
+
+model Configuration {
+  id              String        @id @default(cuid())
+  width           Int
+  height          Int
+  imageUrl        String
+  color           CaseColor?    // Optional bcoz we are passing this in the second step
+  model           PhoneModel?
+  material        CaseMaterial?
+  finish          CaseFinish?
   croppedImageUrl String?
 }
