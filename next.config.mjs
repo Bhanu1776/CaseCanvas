@@ -1,15 +1,19 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'utfs.io',
+        port: '',
+        pathname: '**/*',
+      },
+    ],
+  },
   eslint: {
     dirs: ['src'],
     ignoreDuringBuilds: true,
   },
 };
-// export default million.next(
-//   MillionLint.next({
-//     rsc: true,
-//   })(nextConfig),
-//   {
-//     auto: true,
-//   },
-// );
+
+export default nextConfig;
