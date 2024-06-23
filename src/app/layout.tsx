@@ -3,10 +3,10 @@ import Navbar from '@/components/Navigation/Navbar';
 import Providers from '@/components/Providers';
 import { Toaster } from '@/components/ui/toaster';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Recursive } from 'next/font/google';
 import './globals.css';
 
-const inter = Inter({ subsets: ['latin'] });
+const recursive = Recursive({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Case Canvas',
@@ -20,7 +20,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={recursive.className}>
         <Navbar />
 
         {/* //* Very Important Trick -> Pushing the footer to the end of the screen and the space below footer will be free */}
