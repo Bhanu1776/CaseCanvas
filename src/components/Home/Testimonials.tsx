@@ -1,6 +1,5 @@
-/* eslint-disable react/no-unescaped-entities */
-import { StarRating } from '@/app/(Home)/(Hero)/components/StarRating';
-import { Icons } from '@/app/(Home)/(Testimonials)/components/Icons';
+import { Icons } from '@/components/Home/Icons';
+import { StarRating } from '@/components/Home/StarRating';
 import MaxWidthWrapper from '@/components/MaxWidthWrapper';
 import { Check } from 'lucide-react';
 import Image from 'next/image';

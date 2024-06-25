@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import MaxWidthWrapper from '@/components/MaxWidthWrapper';
 import Phone from '@/components/Phone';
 import { buttonVariants } from '@/components/ui/button';
