@@ -24,6 +24,7 @@ const DesignPreview = ({ configuration }: { configuration: Configuration }) => {
   const [isLoginModalOpen, setIsLoginModalOpen] = useState<boolean>(false);
 
   const [showConfetti, setShowConfetti] = useState<boolean>(false);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => setShowConfetti(true));
 
   const { color, model, finish, material } = configuration;

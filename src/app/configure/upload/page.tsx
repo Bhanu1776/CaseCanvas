@@ -82,6 +82,7 @@ const Page = () => {
               ) : isUploading || isPending ? (
                 <Loader2 className="mb-2 h-6 w-6 animate-spin text-zinc-500" />
               ) : (
+                // eslint-disable-next-line jsx-a11y/alt-text
                 <Image className="mb-2 h-6 w-6 text-zinc-500" />
               )}
               <div className="mb-2 flex flex-col justify-center text-sm text-zinc-700">
