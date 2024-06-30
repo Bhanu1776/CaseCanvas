@@ -73,11 +73,16 @@ const DesignPreview = ({ configuration }: { configuration: Configuration }) => {
     <>
       <div
         aria-hidden="true"
-        className="pointer-events-none absolute inset-0 flex select-none justify-center overflow-hidden"
+        className="pointer-events-none absolute inset-0 z-[99999] flex select-none justify-center overflow-hidden"
       >
         <Confetti
           active={showConfetti}
-          config={{ elementCount: 200, spread: 90 }}
+          config={{
+            elementCount: 200,
+            spread: 150,
+            width: '14px',
+            height: '14px',
+          }}
         />
       </div>
 
