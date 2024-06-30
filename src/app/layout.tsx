@@ -2,16 +2,13 @@ import Footer from '@/components/Navigation/Footer';
 import Navbar from '@/components/Navigation/Navbar';
 import Providers from '@/components/Providers';
 import { Toaster } from '@/components/ui/toaster';
-import type { Metadata } from 'next';
+import { constructMetadata } from '@/lib/utils';
 import { Recursive } from 'next/font/google';
 import './globals.css';
 
 const recursive = Recursive({ subsets: ['latin'] });
 
-export const metadata: Metadata = {
-  title: 'Case Canvas',
-  description: 'A Modern E-Commerce-Store for Custom Phone Cases',
-};
+export const metadata = constructMetadata();
 
 export default function RootLayout({
   children,
