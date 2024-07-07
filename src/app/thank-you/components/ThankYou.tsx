@@ -17,7 +17,7 @@ const ThankYou = () => {
   const orderId = searchParams.get('orderId') || '';
 
   const { data } = useQuery({
-    queryKey: ['get-payment-status'],
+    queryKey: ['get-payment-status', orderId],
     queryFn: async () => await getPaymentStatus({ orderId }),
     retry: true, //* We are doing API Polling here
     retryDelay: 500,
