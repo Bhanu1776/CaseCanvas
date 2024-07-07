@@ -51,10 +51,12 @@ const Working = () => {
 
         <ul className="mx-auto mt-12 w-fit max-w-prose space-y-2 sm:text-lg">
           {REASONS_TO_BUY.map((feature, index) => (
-            <li key={index} className="w-fit">
-              <Check className="mr-1.5 inline h-5 w-5 text-rose-600" />
-              {feature}
-            </li>
+            <ol key={index} className="list-inside list-disc">
+              <li key={index} className="w-fit">
+                <Check className="mr-1.5 inline h-5 w-5 text-rose-600" />
+                {feature}
+              </li>
+            </ol>
           ))}
 
           <div className="flex justify-center">
