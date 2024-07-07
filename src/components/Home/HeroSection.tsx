@@ -8,7 +8,7 @@ import Image from 'next/image';
 const FEATURES = [
   'High-quality, durable material',
   '5 year print guarantee',
-  'Modern Iphone models supported',
+  'Latest Iphone models supported',
 ];
 
 const HeroSection = () => {

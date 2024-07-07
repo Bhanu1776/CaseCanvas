@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const REASONS_TO_BUY = [
   'High-quality silicone material',
-  'Scratch and fingerprint resistant coating, ',
+  'Scratch and fingerprint resistant coating',
   'Wireless charging compatible',
   '5 year print warranty',
 ];
