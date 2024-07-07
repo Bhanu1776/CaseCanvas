@@ -18,8 +18,8 @@ const Testimonials = () => {
             say
           </h2>
           <Image
-            src="/snake-2.png"
-            className="order-0 w-24 lg:order-2"
+            src="/panda-love.png"
+            className="order-0 -ml-4 w-32 lg:order-2"
             alt="Logo"
             width="1000"
             height="1000"

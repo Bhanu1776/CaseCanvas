@@ -39,13 +39,13 @@ const Working = () => {
 
             <div className="relative h-80 w-full max-w-sm rounded-xl bg-gray-900/5 ring-inset ring-gray-900/10 md:h-full md:justify-self-end lg:rounded-2xl">
               <img
-                src="/horse.jpg"
+                src="/bhanu.jpg"
                 alt="arrow"
                 className="h-full w-full rounded-md bg-white object-cover shadow-2xl ring-1 ring-gray-900/10"
               />
             </div>
 
-            <Phone className="w-60" imgSrc="/horse_phone.jpg" />
+            <Phone className="w-60" imgSrc="/bhanu-phone.jpg" />
           </div>
         </div>
 

@@ -7,12 +7,15 @@ import { useInView } from 'framer-motion';
 import { HTMLAttributes, useEffect, useRef, useState } from 'react';
 
 const PHONES = [
-  '/testimonials/1.jpg',
-  '/testimonials/2.jpg',
-  '/testimonials/3.jpg',
-  '/testimonials/4.jpg',
-  '/testimonials/5.jpg',
-  '/testimonials/6.jpg',
+  '/rohit-2.jpg',
+  '/virat.jpeg',
+  '/ro-ko.jpeg',
+  '/dhoni.jpeg',
+  '/messi.jpeg',
+  // '/ronaldo.jpeg',
+  '/ronaldo-2.jpg',
+  // '/rohit.jpg',
+  // '/surya.jpeg',
 ];
 
 function splitArray<T>(arr: Array<T>, numParts: number) {

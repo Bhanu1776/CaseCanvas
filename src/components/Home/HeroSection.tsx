@@ -17,13 +17,15 @@ const HeroSection = () => {
       <MaxWidthWrapper className="pb-24 pt-10 sm:pb-32 lg:grid lg:grid-cols-3 lg:gap-x-0 lg:pb-52 lg:pt-24 xl:gap-x-8 xl:pt-32">
         <div className="col-span-2 px-6 lg:px-0 lg:pt-4">
           <div className="relative mx-auto flex flex-col items-center text-center lg:items-start lg:text-left">
-            <div className="absolute -top-20 left-0 hidden w-28 lg:block">
+            <div className="absolute  -top-40 hidden lg:block">
               <Image
-                src="/snake-1.png"
+                src="/panda.png"
                 alt="Logo"
-                className="w-full"
-                width="1000"
+                className="mt-[60px] w-[200px]"
                 height="1000"
+                width="1000"
+                placeholder="blur"
+                blurDataURL="/panda.png"
               />
             </div>
 
@@ -91,7 +93,7 @@ const HeroSection = () => {
               width="1000"
               height="1000"
             />
-            <Phone className="w-64" imgSrc="/testimonials/1.jpg" />
+            <Phone className="w-64" imgSrc="/dog.jpg" />
           </div>
         </div>
       </MaxWidthWrapper>

@@ -33,7 +33,7 @@ const Steps = () => {
           (step) => pathname.endsWith(step.url), // If next index's URL is in pathname then, it's obvious 1st(current) step is completed.
         );
         //* Smart way to map images
-        const imgPath = `/snake-${i + 1}.png`;
+        const imgPath = `/panda-${i + 1}.png`;
 
         return (
           <li key={step.name} className="relative overflow-hidden lg:flex-1">
@@ -62,7 +62,7 @@ const Steps = () => {
                     width="100"
                     height="100"
                     className={cn(
-                      'flex size-20 items-center justify-center object-contain',
+                      'flex size-[5.5rem] items-center justify-center object-contain',
                       {
                         'border-none': isCompleted,
                         'border-zinc-700': isCurrent,
