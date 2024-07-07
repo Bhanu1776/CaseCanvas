@@ -20,7 +20,7 @@ const Working = () => {
           <div className="mx-auto max-w-2xl sm:text-center">
             <h2 className="order-1 mt-2 text-balance text-center text-5xl font-bold !leading-tight tracking-tight text-gray-900 md:text-6xl">
               Upload your photo and get&nbsp;
-              <span className="relative bg-green-600 px-2 text-white">
+              <span className="relative bg-rose-600 px-2 text-white">
                 your own case
               </span>
               &nbsp;now
@@ -52,7 +52,7 @@ const Working = () => {
         <ul className="mx-auto mt-12 w-fit max-w-prose space-y-2 sm:text-lg">
           {REASONS_TO_BUY.map((feature, index) => (
             <li key={index} className="w-fit">
-              <Check className="mr-1.5 inline h-5 w-5 text-green-600" />
+              <Check className="mr-1.5 inline h-5 w-5 text-rose-600" />
               {feature}
             </li>
           ))}

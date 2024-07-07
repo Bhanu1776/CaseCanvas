@@ -36,7 +36,7 @@ const PhonePreview = ({
   }, [ref.current]);
 
   let caseBackgroundColor = 'bg-zinc-950';
-  if (color === 'blue') caseBackgroundColor = 'bg-blue-950';
+  if (color === 'blue') caseBackgroundColor = 'bg-rose-950';
   if (color === 'rose') caseBackgroundColor = 'bg-rose-950';
 
   return (

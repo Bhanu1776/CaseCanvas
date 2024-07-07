@@ -32,7 +32,7 @@ const HeroSection = () => {
             {/* //* Title */}
             <h1 className="relative mt-16 w-fit text-balance text-5xl font-bold !leading-tight tracking-tight text-gray-900 md:text-6xl lg:text-7xl">
               Your Image on a&nbsp;
-              <span className="bg-green-600 px-2 text-white">Custom</span>
+              <span className="bg-rose-600 px-2 text-white">Custom</span>
               &nbsp;Phone Case
             </h1>
 
@@ -52,7 +52,7 @@ const HeroSection = () => {
                     key={index}
                     className="flex items-center gap-1.5 text-left"
                   >
-                    <Check className="size-5 shrink-0 text-green-600" />
+                    <Check className="size-5 shrink-0 text-rose-600" />
                     {feature}
                   </li>
                 ))}
@@ -93,7 +93,7 @@ const HeroSection = () => {
               width="1000"
               height="1000"
             />
-            <Phone className="w-64" imgSrc="/dog.jpg" />
+            <Phone className="w-64" imgSrc="/virat.jpeg" />
           </div>
         </div>
       </MaxWidthWrapper>

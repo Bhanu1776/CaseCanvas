@@ -13,7 +13,7 @@ const Testimonials = () => {
             What our
             <span className="relative px-2">
               customers
-              <Icons.underline className="pointer-events-none absolute inset-x-0 -bottom-6 hidden text-green-500 sm:block" />
+              <Icons.underline className="pointer-events-none absolute inset-x-0 -bottom-6 hidden text-rose-500 sm:block" />
             </span>
             say
           </h2>
@@ -54,7 +54,7 @@ const Testimonials = () => {
               <div className="flex flex-col">
                 <p className="font-semibold">Jonathan</p>
                 <div className="flex items-center gap-1.5 text-zinc-600">
-                  <Check className="h-4 w-4 stroke-[3px] text-green-600" />
+                  <Check className="h-4 w-4 stroke-[3px] text-rose-600" />
                   <p className="text-sm">Verified Purchase</p>
                 </div>
               </div>
@@ -89,7 +89,7 @@ const Testimonials = () => {
               <div className="flex flex-col">
                 <p className="font-semibold">Josh</p>
                 <div className="flex items-center gap-1.5 text-zinc-600">
-                  <Check className="h-4 w-4 stroke-[3px] text-green-600" />
+                  <Check className="h-4 w-4 stroke-[3px] text-rose-600" />
                   <p className="text-sm">Verified Purchase</p>
                 </div>
               </div>
