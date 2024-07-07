@@ -15,5 +15,7 @@ export const UserImage = ({ src, alt }: { src: string; alt: string }) => (
     className="inline-block size-10 rounded-full ring-2 ring-slate-100"
     width={1000}
     height={1000}
+    placeholder="blur"
+    blurDataURL={src}
   />
 );

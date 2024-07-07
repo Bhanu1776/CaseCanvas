@@ -124,7 +124,7 @@ const DesignPreview = ({ configuration }: { configuration: Configuration }) => {
               <p className="font-medium text-zinc-950">Materials</p>
               <ol className="mt-3 list-inside list-disc text-zinc-700">
                 <li>High-quality, durable material</li>
-                <li>Scratch- and fingerprint resistant coating</li>
+                <li>Scratch and fingerprint resistant coating</li>
               </ol>
             </div>
           </div>

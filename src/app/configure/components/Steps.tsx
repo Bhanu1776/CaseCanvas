@@ -58,7 +58,7 @@ const Steps = () => {
                 <span className="flex-shrink-0">
                   <Image
                     src={imgPath}
-                    alt="Snake Image"
+                    alt="Panda Image"
                     width="100"
                     height="100"
                     className={cn(
@@ -68,6 +68,8 @@ const Steps = () => {
                         'border-zinc-700': isCurrent,
                       },
                     )}
+                    placeholder="blur"
+                    blurDataURL={imgPath}
                   />
                 </span>
 

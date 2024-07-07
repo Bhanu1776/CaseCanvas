@@ -23,6 +23,8 @@ const Testimonials = () => {
             alt="Logo"
             width="1000"
             height="1000"
+            placeholder="blur"
+            blurDataURL="/panda-love.png"
           />
         </main>
 
@@ -50,6 +52,8 @@ const Testimonials = () => {
                 alt="user"
                 width="1000"
                 height="1000"
+                placeholder="blur"
+                blurDataURL="/users/user-1.png"
               />
               <div className="flex flex-col">
                 <p className="font-semibold">David</p>
@@ -85,6 +89,8 @@ const Testimonials = () => {
                 alt="user"
                 width="1000"
                 height="1000"
+                placeholder="blur"
+                blurDataURL="/users/user-4.jpg"
               />
               <div className="flex flex-col">
                 <p className="font-semibold">Bunny</p>

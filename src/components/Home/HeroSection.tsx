@@ -85,6 +85,8 @@ const HeroSection = () => {
               alt="Your Image"
               width="1000"
               height="1000"
+              placeholder="blur"
+              blurDataURL="/your-image.png"
             />
             <Image
               src="/line.png"
@@ -92,6 +94,8 @@ const HeroSection = () => {
               alt="Line"
               width="1000"
               height="1000"
+              // placeholder="blur"
+              // blurDataURL="/your-image.png"
             />
             <Phone className="w-64" imgSrc="/virat.jpeg" />
           </div>

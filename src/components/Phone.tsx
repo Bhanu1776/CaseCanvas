@@ -22,6 +22,8 @@ const Phone = ({ imgSrc, className, dark = false, ...props }: PhoneProps) => {
         alt="phone image"
         width="1000"
         height="1000"
+        placeholder="blur"
+        blurDataURL="/phone-template-white.png"
       />
 
       <div className="absolute inset-0 -z-10">
@@ -31,6 +33,8 @@ const Phone = ({ imgSrc, className, dark = false, ...props }: PhoneProps) => {
           alt="overlaying phone image"
           width="1000"
           height="1000"
+          placeholder="blur"
+          blurDataURL={imgSrc}
         />
       </div>
     </div>

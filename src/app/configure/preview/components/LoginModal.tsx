@@ -21,12 +21,14 @@ const LoginModal = ({
     <Dialog onOpenChange={setIsOpen} open={isOpen}>
       <DialogContent className="absolute z-[9999999]">
         <DialogHeader>
-          <div className="relative mx-auto mb-2 h-24 w-24">
+          <div className="relative mx-auto mb-2 size-40">
             <Image
-              src="/snake-1.png"
-              alt="snake image"
+              src="/panda-3.png"
+              alt="panda image"
               className="object-contain"
               fill
+              placeholder="blur"
+              blurDataURL="/panda-3.png"
             />
           </div>
           <DialogTitle className="text-center text-3xl font-bold tracking-tight text-gray-900">
