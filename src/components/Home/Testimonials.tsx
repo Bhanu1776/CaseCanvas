@@ -52,7 +52,7 @@ const Testimonials = () => {
                 height="1000"
               />
               <div className="flex flex-col">
-                <p className="font-semibold">Jonathan</p>
+                <p className="font-semibold">David</p>
                 <div className="flex items-center gap-1.5 text-zinc-600">
                   <Check className="h-4 w-4 stroke-[3px] text-rose-600" />
                   <p className="text-sm">Verified Purchase</p>
@@ -87,7 +87,7 @@ const Testimonials = () => {
                 height="1000"
               />
               <div className="flex flex-col">
-                <p className="font-semibold">Josh</p>
+                <p className="font-semibold">Bunny</p>
                 <div className="flex items-center gap-1.5 text-zinc-600">
                   <Check className="h-4 w-4 stroke-[3px] text-rose-600" />
                   <p className="text-sm">Verified Purchase</p>

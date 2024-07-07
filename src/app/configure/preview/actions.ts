@@ -49,7 +49,7 @@ export const createCheckoutSession = async ({
   } else {
     order = await db.order.create({
       data: {
-        amount: price / 100,
+        amount: price,
         userId: user.id,
         configurationId: configuration.id,
       },
@@ -60,8 +60,8 @@ export const createCheckoutSession = async ({
     name: 'Custom iPhone Case',
     images: [configuration.imageUrl],
     default_price_data: {
-      currency: 'USD',
-      unit_amount: price,
+      currency: 'inr',
+      unit_amount: price * 100,
     },
   });
 
