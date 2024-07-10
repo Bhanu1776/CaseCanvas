@@ -23,10 +23,7 @@ const OrderReceivedEmail = ({
   orderId: string;
   orderDate: string;
 }) => {
-  const baseUrl =
-    process.env.NODE_ENV === 'development'
-      ? 'http://localhost:3000'
-      : 'https://case-canvas.vercel.app';
+  const baseUrl = 'https://www.casecanvas.online';
 
   return (
     <Html>
@@ -37,8 +34,8 @@ const OrderReceivedEmail = ({
           <Section style={message}>
             <Img
               src={`${baseUrl}/panda-4.png`}
-              width="65"
-              height="73"
+              width="100"
+              height="100"
               alt="delivery panda"
               style={{ margin: 'auto' }}
             />
