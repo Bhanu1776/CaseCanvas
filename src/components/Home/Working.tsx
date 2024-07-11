@@ -1,8 +1,8 @@
 import MaxWidthWrapper from '@/components/MaxWidthWrapper';
 import Phone from '@/components/Phone';
+import TrackedLink from '@/components/TrackedLink';
 import { buttonVariants } from '@/components/ui/button';
 import { ArrowRight, Check } from 'lucide-react';
-import Link from 'next/link';
 
 const REASONS_TO_BUY = [
   'High-quality silicone material',
@@ -60,15 +60,18 @@ const Working = () => {
           ))}
 
           <div className="flex justify-center">
-            <Link
+            <TrackedLink
               className={buttonVariants({
                 size: 'lg',
                 className: 'mx-auto mt-8',
               })}
               href="/configure/upload"
+              eventCategory="Button from Working section"
+              eventAction="Click"
+              eventLabel="Create case from Landing page"
             >
               Create your case now <ArrowRight className="ml-1.5 h-4 w-4" />
-            </Link>
+            </TrackedLink>
           </div>
         </ul>
       </MaxWidthWrapper>

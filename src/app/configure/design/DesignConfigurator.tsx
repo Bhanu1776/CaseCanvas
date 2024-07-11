@@ -16,6 +16,7 @@ import { BASE_PRICE } from '@/config/products';
 import { useUploadThing } from '@/lib/uploadthing';
 import { cn, formatPrice } from '@/lib/utils';
 import { base64ToBlob } from '@/utils/base64ToBlob';
+import { handleGAclick } from '@/utils/google-analytics';
 import {
   COLORS,
   FINISHES,
@@ -396,15 +397,21 @@ const DesignConfigurator = ({
                 isLoading={isPending}
                 disabled={isPending}
                 loadingText="Saving"
-                onClick={() =>
+                onClick={() => {
                   saveConfig({
                     configId,
                     color: options.color.value,
                     finish: options.finish.value,
                     material: options.material.value,
                     model: options.model.value,
-                  })
-                }
+                  });
+                  handleGAclick(
+                    'Design',
+                    'Click',
+                    'Continue from Design page',
+                    () => {},
+                  );
+                }}
                 size="sm"
                 className="w-full"
               >

@@ -1,3 +1,4 @@
+import GoogleAnalytics from '@/components/GoogleAnalytics';
 import Footer from '@/components/Navigation/Footer';
 import Navbar from '@/components/Navigation/Navbar';
 import Providers from '@/components/Providers';
@@ -18,6 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={recursive.className}>
+        <GoogleAnalytics />
         <Navbar />
 
         {/* //* Very Important Trick -> Pushing the footer to the end of the screen and the space below footer will be free */}
