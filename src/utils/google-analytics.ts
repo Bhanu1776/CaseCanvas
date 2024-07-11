@@ -26,5 +26,14 @@ const handleGAclick = (
   onClick();
 };
 
+const trackScrollDepth = (percentage: number): void => {
+  ReactGA.event({
+    category: 'Scroll Depth',
+    action: `Scrolled to ${percentage}%`,
+    label: window.location.pathname,
+  });
+  console.log(percentage);
+};
+
 export default initializeGA;
-export { handleGAclick, initializeGA, trackGAEvent };
+export { handleGAclick, initializeGA, trackGAEvent, trackScrollDepth };
