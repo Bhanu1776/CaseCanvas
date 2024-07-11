@@ -94,7 +94,7 @@ const DesignPreview = ({ configuration }: { configuration: Configuration }) => {
           <Phone
             className={cn(
               `bg-${tw}`,
-              'pointer-events-none max-w-[150px] md:max-w-full',
+              'pointer-events-none max-w-[150px] select-none md:max-w-full',
             )}
             imgSrc={configuration.croppedImageUrl!}
           />

@@ -86,7 +86,7 @@ const ThankYou = () => {
           </div>
         </div>
 
-        <div className="mt-4 flex space-x-6 overflow-hidden rounded-xl bg-gray-900/5 ring-1 ring-inset ring-gray-900/10 lg:rounded-2xl">
+        <div className="mt-4 flex select-none space-x-6 overflow-hidden rounded-xl bg-gray-900/5 ring-1 ring-inset ring-gray-900/10 lg:rounded-2xl">
           <PhonePreview
             croppedImageUrl={configuration.croppedImageUrl!}
             color={color!}

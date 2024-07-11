@@ -19,7 +19,7 @@ const Testimonials = () => {
           </h2>
           <Image
             src="/panda-love.png"
-            className="order-0 -ml-4 w-32 lg:order-2"
+            className="order-0 -ml-4 w-32 select-none lg:order-2"
             alt="Logo"
             width="1000"
             height="1000"
@@ -47,7 +47,7 @@ const Testimonials = () => {
             </article>
             <div className="mt-2 flex gap-4">
               <Image
-                className="h-12 w-12 rounded-full object-cover"
+                className="h-12 w-12 select-none rounded-full object-cover"
                 src="/users/user-1.png"
                 alt="user"
                 width="1000"
@@ -84,7 +84,7 @@ const Testimonials = () => {
             </article>
             <div className="mt-2 flex gap-4">
               <Image
-                className="h-12 w-12 rounded-full object-cover"
+                className="h-12 w-12 select-none rounded-full object-cover"
                 src="/users/user-4.jpg"
                 alt="user"
                 width="1000"

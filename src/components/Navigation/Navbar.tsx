@@ -60,7 +60,7 @@ const Navbar = async () => {
                   eventLabel="Create case from Header"
                   className={buttonVariants({
                     size: 'sm',
-                    className: 'hidden items-center gap-1 sm:flex',
+                    className: 'hidden select-none items-center gap-1 sm:flex',
                   })}
                 >
                   Create case
@@ -104,7 +104,7 @@ const Navbar = async () => {
                   eventLabel="Create case from Header"
                   className={buttonVariants({
                     size: 'sm',
-                    className: 'hidden items-center gap-1 sm:flex',
+                    className: 'hidden select-none items-center gap-1 sm:flex',
                   })}
                 >
                   Create case
