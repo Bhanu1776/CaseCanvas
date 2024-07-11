@@ -36,13 +36,13 @@ const Testimonials = () => {
             </div>
             <article className="text-lg leading-8">
               <p>
-                "The case feels durable and I even got a compliment on the
-                design. Had the case for two and a half months now and &nbsp;
+                "The case is sturdy and I’ve already received compliments on its
+                design. I’ve had it for two and a half months, and the{' '}
                 <span className="bg-slate-800 p-0.5 text-white">
-                  the image is super clear
+                  image remains sharp and vibrant
                 </span>
-                , on the case I had before, the image started fading into
-                yellow-ish color after a couple weeks. Love it."
+                . My previous case started to turn yellow after just a few
+                weeks. I absolutely love this one."
               </p>
             </article>
             <div className="mt-2 flex gap-4">
@@ -72,14 +72,14 @@ const Testimonials = () => {
             </div>
             <article className="text-lg leading-8">
               <p>
-                "I usually keep my phone together with my keys in my pocket and
-                that led to some pretty heavy scratch marks on all of my last
-                phone cases. This one, besides a barely noticeable scratch on
-                the corner, &nbsp;
+                “I usually carry my phone and keys in the same pocket, which
+                caused severe scratches on all my previous cases. However, this
+                one still{' '}
                 <span className="bg-slate-800 p-0.5 text-white">
-                  looks brand new after about half a year
+                  looks almost brand new after about six months
                 </span>
-                . I dig it."
+                , with just a barely noticeable scratch on the corner. I’m
+                really impressed with it.”
               </p>
             </article>
             <div className="mt-2 flex gap-4">

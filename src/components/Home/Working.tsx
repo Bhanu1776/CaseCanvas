@@ -34,14 +34,14 @@ const Working = () => {
             <img
               src="/arrow.png"
               alt="arrow"
-              className="absolute left-1/2 top-[25rem] z-10 -translate-x-1/2 -translate-y-1/2 rotate-90 md:top-1/2 md:rotate-0"
+              className="pointer-events-none absolute left-1/2 top-[25rem] z-10 -translate-x-1/2 -translate-y-1/2 rotate-90 md:top-1/2 md:rotate-0"
             />
 
             <div className="relative h-80 w-full max-w-sm rounded-xl bg-gray-900/5 ring-inset ring-gray-900/10 md:h-full md:justify-self-end lg:rounded-2xl">
               <img
                 src="/bhanu.jpg"
                 alt="arrow"
-                className="h-full w-full rounded-md bg-white object-cover shadow-2xl ring-1 ring-gray-900/10"
+                className="pointer-events-none h-full w-full rounded-md bg-white object-cover shadow-2xl ring-1 ring-gray-900/10"
               />
             </div>
 
