@@ -1,4 +1,4 @@
-const LoadingComponent = () => {
+const Spinner = () => {
   return (
     <div className="spinner-overlay">
       <div className="spinner">
@@ -13,4 +13,4 @@ const LoadingComponent = () => {
   );
 };
 
-export default LoadingComponent;
+export default Spinner;
