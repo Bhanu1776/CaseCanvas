@@ -1,8 +1,10 @@
 'use client';
 
+import Spinner from '@/components/Loaders/Spinner';
 import { AspectRatio } from '@/components/ui/aspect-ratio';
 import { cn } from '@/lib/utils';
 import { CaseColor } from '@prisma/client';
+import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
 
 const PhonePreview = ({
@@ -19,6 +21,7 @@ const PhonePreview = ({
     height: 0,
     width: 0,
   });
+  const [isLoading, setIsLoading] = useState(true);
 
   const handleResize = () => {
     if (!ref.current) return;
@@ -50,7 +53,8 @@ const PhonePreview = ({
           top: renderedDimensions.height / 6.22,
         }}
       >
-        <img
+        {isLoading && <Spinner />}
+        <Image
           width={renderedDimensions.width / (3000 / 637)}
           className={cn(
             'phone-skew relative z-20 select-none rounded-b-[10px] rounded-t-[15px] md:rounded-b-[20px] md:rounded-t-[30px]',
@@ -58,6 +62,8 @@ const PhonePreview = ({
           )}
           src={croppedImageUrl}
           alt="user image"
+          height="1000"
+          onLoad={() => setIsLoading(false)}
         />
       </div>
 

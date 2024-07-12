@@ -19,7 +19,7 @@ const MyNextImage: React.FC<NextImageProps> = ({ imageUrl }) => {
         layout="fill"
         objectFit="cover"
         className="pointer-events-none"
-        onLoadingComplete={() => setIsLoading(false)}
+        onLoad={() => setIsLoading(false)}
       />
     </div>
   );

@@ -44,7 +44,7 @@ const Phone = ({ imgSrc, className, dark = false, ...props }: PhoneProps) => {
           height="1000"
           placeholder="blur"
           blurDataURL={imgSrc}
-          onLoadingComplete={() => setIsLoading(false)}
+          onLoad={() => setIsLoading(false)}
         />
       </div>
     </div>
