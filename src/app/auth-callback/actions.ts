@@ -25,5 +25,6 @@ export const getAuthStatus = async () => {
     });
   }
 
+  console.log('🚀 ~ getAuthStatus ~ success:', user);
   return { success: true };
 };

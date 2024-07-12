@@ -14,4 +14,5 @@ export const changeOrderStatus = async ({
     where: { id },
     data: { status: newStatus },
   });
+  console.log('🗽 ~ Order Status:', 'Updated');
 };
