@@ -31,6 +31,7 @@ import { useRouter } from 'next/navigation';
 import { useRef, useState } from 'react';
 import { Rnd } from 'react-rnd';
 import { SaveConfigArgs, saveConfig as _saveConfig } from './actions';
+import MyNextImage from '@/components/MyNextImage';
 
 interface DesignConfiguratorProps {
   configId: string;
@@ -207,12 +208,7 @@ const DesignConfigurator = ({
           }}
         >
           <div className="relative h-full w-full">
-            <NextImage
-              src={imageUrl}
-              fill
-              alt="your image"
-              className="pointer-events-none"
-            />
+            <MyNextImage imageUrl={imageUrl} />
           </div>
         </Rnd>
       </div>

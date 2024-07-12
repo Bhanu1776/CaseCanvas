@@ -1,6 +1,8 @@
+'use client';
+import PreviewLoader from '@/app/configure/preview/components/PreviewLoader';
 import { cn } from '@/lib/utils';
 import Image from 'next/image';
-import { HTMLAttributes } from 'react';
+import { HTMLAttributes, useState } from 'react';
 
 interface PhoneProps extends HTMLAttributes<HTMLDivElement> {
   imgSrc: string;
@@ -8,10 +10,12 @@ interface PhoneProps extends HTMLAttributes<HTMLDivElement> {
 }
 
 const Phone = ({ imgSrc, className, dark = false, ...props }: PhoneProps) => {
+  const [isLoading, setIsLoading] = useState(true);
+
   return (
     <div
       className={cn(
-        'pointer-events-none relative z-50 overflow-hidden',
+        'pointer-events-none relative z-50 overflow-hidden bg-[#181818]',
         className,
       )}
       {...props}
@@ -27,14 +31,20 @@ const Phone = ({ imgSrc, className, dark = false, ...props }: PhoneProps) => {
       />
 
       <div className="absolute inset-0 -z-10">
+        {isLoading && <PreviewLoader />}
         <Image
           src={imgSrc}
-          className="min-h-full min-w-full object-cover"
+          className={cn('min-h-full min-w-full object-cover', {
+            'opacity-0': isLoading,
+            'opacity-100': !isLoading,
+            'transition-opacity duration-500': !isLoading,
+          })}
           alt="overlaying phone image"
           width="1000"
           height="1000"
           placeholder="blur"
           blurDataURL={imgSrc}
+          onLoadingComplete={() => setIsLoading(false)}
         />
       </div>
     </div>
