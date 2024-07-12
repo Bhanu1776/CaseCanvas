@@ -75,8 +75,8 @@ const Page = async () => {
     },
   });
 
-  const WEEKLY_GOAL = 5000;
-  const MONTHLY_GOAL = 25000;
+  const WEEKLY_GOAL = 10000;
+  const MONTHLY_GOAL = 50000;
 
   return (
     <div className="flex min-h-screen w-full bg-muted/40">
