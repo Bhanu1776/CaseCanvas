@@ -46,19 +46,15 @@ const HeroSection = () => {
 
             {/* //* Features */}
             <ul className="mt-8 flex flex-col items-center space-y-2 text-left font-medium sm:items-start">
-              <div className="space-y-2">
-                {FEATURES.map((feature, index) => (
-                  <ol key={index} className="list-inside list-disc">
-                    <li
-                      key={index}
-                      className="flex items-center gap-1.5 text-left"
-                    >
-                      <Check className="size-5 shrink-0 text-rose-600" />
-                      {feature}
-                    </li>
-                  </ol>
-                ))}
-              </div>
+              {FEATURES.map((feature, index) => (
+                <li
+                  key={index}
+                  className="flex list-inside list-disc items-center gap-1.5 text-left"
+                >
+                  <Check className="size-5 shrink-0 text-rose-600" />
+                  {feature}
+                </li>
+              ))}
             </ul>
 
             {/* //* Overall Reviews */}

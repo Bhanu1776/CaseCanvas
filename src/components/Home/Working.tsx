@@ -49,16 +49,15 @@ const Working = () => {
           </div>
         </div>
 
-        <ul className="mx-auto mt-12 w-fit max-w-prose space-y-2 sm:text-lg">
-          {REASONS_TO_BUY.map((feature, index) => (
-            <ol key={index} className="list-inside list-disc">
-              <li key={index} className="w-fit">
+        <div className="mx-auto mt-12 w-fit max-w-prose space-y-2 sm:text-lg">
+          <ul className="space-y-2">
+            {REASONS_TO_BUY.map((feature, index) => (
+              <li key={index} className="w-fit list-inside list-disc">
                 <Check className="mr-1.5 inline h-5 w-5 text-rose-600" />
                 {feature}
               </li>
-            </ol>
-          ))}
-
+            ))}
+          </ul>
           <div className="flex justify-center">
             <TrackedLink
               className={buttonVariants({
@@ -73,7 +72,7 @@ const Working = () => {
               Create your case now <ArrowRight className="ml-1.5 h-4 w-4" />
             </TrackedLink>
           </div>
-        </ul>
+        </div>
       </MaxWidthWrapper>
     </section>
   );
