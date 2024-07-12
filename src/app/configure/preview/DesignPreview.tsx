@@ -1,7 +1,7 @@
 'use client';
 
 import LoginModal from '@/app/configure/preview/components/LoginModal';
-import Phone from '@/components/Phone';
+import Phone from '@/components/other/Phone';
 import { Button } from '@/components/ui/button';
 import { useToast } from '@/components/ui/use-toast';
 import { BASE_PRICE, PRODUCT_PRICES } from '@/config/products';

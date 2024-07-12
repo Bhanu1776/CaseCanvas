@@ -5,7 +5,7 @@ export const userImages = [
   '/users/user-2.png',
   '/users/user-3.png',
   '/users/user-4.jpg',
-  '/users/user-5.jpg',
+  '/users/user-3.png',
 ];
 
 export const UserImage = ({ src, alt }: { src: string; alt: string }) => (

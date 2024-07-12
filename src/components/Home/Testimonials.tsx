@@ -1,6 +1,6 @@
 import { Icons } from '@/components/Home/Icons';
 import { StarRating } from '@/components/Home/StarRating';
-import MaxWidthWrapper from '@/components/MaxWidthWrapper';
+import MaxWidthWrapper from '@/components/other/MaxWidthWrapper';
 import { Check } from 'lucide-react';
 import Image from 'next/image';
 

@@ -1,6 +1,6 @@
-import MaxWidthWrapper from '@/components/MaxWidthWrapper';
-import Phone from '@/components/Phone';
-import TrackedLink from '@/components/TrackedLink';
+import TrackedLink from '@/components/Analytics/TrackedLink';
+import MaxWidthWrapper from '@/components/other/MaxWidthWrapper';
+import Phone from '@/components/other/Phone';
 import { buttonVariants } from '@/components/ui/button';
 import { ArrowRight, Check } from 'lucide-react';
 

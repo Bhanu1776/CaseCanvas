@@ -1,5 +1,5 @@
-import MaxWidthWrapper from '@/components/MaxWidthWrapper';
-import TrackedLink from '@/components/TrackedLink';
+import TrackedLink from '@/components/Analytics/TrackedLink';
+import MaxWidthWrapper from '@/components/other/MaxWidthWrapper';
 import { buttonVariants } from '@/components/ui/button';
 import { getKindeServerSession } from '@kinde-oss/kinde-auth-nextjs/server';
 import { ArrowRight } from 'lucide-react';

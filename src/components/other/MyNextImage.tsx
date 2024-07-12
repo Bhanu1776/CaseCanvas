@@ -1,5 +1,5 @@
 'use client';
-import Spinner from '@/components/Spinner';
+import Spinner from '@/components/Loaders/Spinner';
 import Image from 'next/image';
 import React, { useState } from 'react';
 

@@ -1,8 +1,8 @@
-import GoogleAnalytics from '@/components/GoogleAnalytics';
+import GoogleAnalytics from '@/components/Analytics/GoogleAnalytics';
+import ScrollTrackerComponent from '@/components/Analytics/ScrollTracker';
 import Footer from '@/components/Navigation/Footer';
 import Navbar from '@/components/Navigation/Navbar';
 import Providers from '@/components/Providers';
-import ScrollTrackerComponent from '@/components/ScrollTracker';
 import { Toaster } from '@/components/ui/toaster';
 import { constructMetadata } from '@/lib/utils';
 import { Recursive } from 'next/font/google';

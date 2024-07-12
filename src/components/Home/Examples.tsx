@@ -1,7 +1,7 @@
 'use client';
 
-import MaxWidthWrapper from '@/components/MaxWidthWrapper';
-import Phone from '@/components/Phone';
+import MaxWidthWrapper from '@/components/other/MaxWidthWrapper';
+import Phone from '@/components/other/Phone';
 import { cn } from '@/lib/utils';
 import { useInView } from 'framer-motion';
 import { HTMLAttributes, useEffect, useRef, useState } from 'react';

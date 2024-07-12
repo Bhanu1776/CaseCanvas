@@ -1,6 +1,7 @@
 'use client';
 
 import HandleComponent from '@/app/configure/design/components/HandleComponent';
+import MyNextImage from '@/components/other/MyNextImage';
 import { AspectRatio } from '@/components/ui/aspect-ratio';
 import { Button } from '@/components/ui/button';
 import {
@@ -31,7 +32,6 @@ import { useRouter } from 'next/navigation';
 import { useRef, useState } from 'react';
 import { Rnd } from 'react-rnd';
 import { SaveConfigArgs, saveConfig as _saveConfig } from './actions';
-import MyNextImage from '@/components/MyNextImage';
 
 interface DesignConfiguratorProps {
   configId: string;

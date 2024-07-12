@@ -1,7 +1,7 @@
 import { StarRating } from '@/components/Home/StarRating';
 import { UserImage, userImages } from '@/components/Home/UserImages';
-import MaxWidthWrapper from '@/components/MaxWidthWrapper';
-import Phone from '@/components/Phone';
+import MaxWidthWrapper from '@/components/other/MaxWidthWrapper';
+import Phone from '@/components/other/Phone';
 import { Check } from 'lucide-react';
 import Image from 'next/image';
 

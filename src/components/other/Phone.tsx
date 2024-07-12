@@ -1,5 +1,5 @@
 'use client';
-import PreviewLoader from '@/app/configure/preview/components/PreviewLoader';
+import PreviewLoader from '@/components/Loaders/PreviewLoader';
 import { cn } from '@/lib/utils';
 import Image from 'next/image';
 import { HTMLAttributes, useState } from 'react';
