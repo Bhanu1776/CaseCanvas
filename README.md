@@ -65,7 +65,7 @@ pnpm run dev
 
 ## Contributing
 
-This is an open source project, and contributions of any kind are welcome and appreciated. Open issues, bugs, and feature requests are all listed on the [issues](https://github.com/Bhanu1776/Freelansters/issues) tab and labeled accordingly. Feel free to open bug tickets and make feature requests.
+This is an open source project, and contributions of any kind are welcome and appreciated. Open issues, bugs, and feature requests are all listed on the [issues](https://github.com/Bhanu1776/CaseCanvas/issues) tab and labeled accordingly. Feel free to open bug tickets and make feature requests.
 
 ## Support Me 🫂
 
@@ -74,6 +74,6 @@ This is an open source project, and contributions of any kind are welcome and ap
 <hr>
 
 © 2024 Bhanu Sunka
-This project is licensed under the [**MIT license**](https://github.com/Bhanu1776/Community-Resilience-Network/blob/master/client/LICENSE).
+This project is licensed under the [**MIT license**](https://github.com/Bhanu1776/CaseCanvas/blob/master/LICENSE).
 
 ![Love](https://img.shields.io/badge/I%20%E2%9D%A4%20-OpenSource-%23ff0055)
