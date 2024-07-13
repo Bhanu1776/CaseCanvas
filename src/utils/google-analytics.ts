@@ -32,7 +32,6 @@ const trackScrollDepth = (percentage: number): void => {
     action: `Scrolled to ${percentage}%`,
     label: window.location.pathname,
   });
-  console.log(percentage);
 };
 
 export default initializeGA;
