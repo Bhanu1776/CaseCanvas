@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center"> Case Canvas </h1>
 
-## Getting Started
+## Technologies 🔧
 
-First, run the development server:
+- NextJs
+- TailwindCss
+- Shadcn
+- HeadlessUI
+- Framer motion
+- Kinde Auth
+- Tanstack React Query
+- Prisma
+- zod
+- NeonDB
+- postgresql
+- uploadthing
+- Resend
+- Stripe
+- Google Analytics
+- Progressive Web App(PWA)  
+- And much more 🎒
+
+## Screenshots 📸
+
+<div align="center">
+
+![CommuniSafe](https://i.imgur.com/JMt9U9q.png)
+ <i style="font-size: .8em">Stunning Landing page</i>
+
+<br>
+
+![Multilingual support](https://i.imgur.com/SAe1lm0.jpg)
+ <i style="font-size: .8em">Super optimized, Achieved with Nextjs</i>
+
+<br>
+
+![Google SignIn](https://i.imgur.com/OlpUfnr.png)
+ <i style="font-size: .8em">Custom Dashboard</i>
+
+<br>
+
+</div>
+
+## Code Example/Issues 🔍
+
+If you have any issues, please let me know in the issues section or directly to sunkabhanu281202@gmail.com
+
+## Installation 💾
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/Bhanu1776/CaseCanvas.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Install deps:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Run Next.js server :
 
-## Learn More
+```bash
+pnpm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This is an open source project, and contributions of any kind are welcome and appreciated. Open issues, bugs, and feature requests are all listed on the [issues](https://github.com/Bhanu1776/Freelansters/issues) tab and labeled accordingly. Feel free to open bug tickets and make feature requests.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Support Me 🫂
 
-## Deploy on Vercel
+<a href="https://www.buymeacoffee.com/Bhanu1776"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<hr>
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+© 2024 Bhanu Sunka
+This project is licensed under the [**MIT license**](https://github.com/Bhanu1776/Community-Resilience-Network/blob/master/client/LICENSE).
+
+![Love](https://img.shields.io/badge/I%20%E2%9D%A4%20-OpenSource-%23ff0055)
