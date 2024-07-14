@@ -1,5 +1,4 @@
 import GoogleAnalytics from '@/components/Analytics/GoogleAnalytics';
-import ScrollTrackerComponent from '@/components/Analytics/ScrollTracker';
 import Footer from '@/components/Navigation/Footer';
 import Navbar from '@/components/Navigation/Navbar';
 import Providers from '@/components/Providers';
@@ -26,9 +25,7 @@ export default function RootLayout({
         {/* //* Very Important Trick -> Pushing the footer to the end of the screen and the space below footer will be free */}
         <main className="grainy-light flex min-h-[calc(100vh-3.5rem-1px)] flex-col">
           <div className="flex h-full flex-1 flex-col">
-            <Providers>
-              <ScrollTrackerComponent>{children}</ScrollTrackerComponent>
-            </Providers>
+            <Providers>{children}</Providers>
           </div>
           {/* //* Flex-1 -> Will take the entire space between the Navbar and Footer */}
           <Footer />
