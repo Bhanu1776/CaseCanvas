@@ -66,7 +66,7 @@ const Working = () => {
               })}
               href="/configure/upload"
               eventCategory="Button from Working section"
-              eventAction="Click"
+              eventAction="Create case from Landing page"
               eventLabel="Create case from Landing page"
             >
               Create your case now <ArrowRight className="ml-1.5 h-4 w-4" />

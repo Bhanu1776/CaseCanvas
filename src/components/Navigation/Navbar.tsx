@@ -17,7 +17,7 @@ const Navbar = async () => {
           <TrackedLink
             href="/"
             eventCategory="Home"
-            eventAction="Click"
+            eventAction="Clicking on the logo redirects to the homepage."
             eventLabel="Clicking on the logo redirects to the homepage."
             className="z-40 flex font-semibold"
           >
@@ -30,7 +30,7 @@ const Navbar = async () => {
                 <TrackedLink
                   href="/api/auth/logout"
                   eventCategory="Auth"
-                  eventAction="Logout"
+                  eventAction="Logout Btn"
                   eventLabel="Sign out"
                   className={buttonVariants({
                     size: 'sm',
@@ -43,7 +43,7 @@ const Navbar = async () => {
                   <TrackedLink
                     href="/dashboard"
                     eventCategory="Navigation"
-                    eventAction="Click"
+                    eventAction="Dashboard Btn"
                     eventLabel="Dashboard"
                     className={buttonVariants({
                       size: 'sm',
@@ -56,7 +56,7 @@ const Navbar = async () => {
                 <TrackedLink
                   href="/configure/upload"
                   eventCategory="Product"
-                  eventAction="Click"
+                  eventAction="Create case from Header"
                   eventLabel="Create case from Header"
                   className={buttonVariants({
                     size: 'sm',
@@ -72,7 +72,7 @@ const Navbar = async () => {
                 <TrackedLink
                   href="/api/auth/register"
                   eventCategory="Auth"
-                  eventAction="Register"
+                  eventAction="Register from Header"
                   eventLabel="Sign up"
                   className={buttonVariants({
                     size: 'sm',
@@ -85,8 +85,8 @@ const Navbar = async () => {
                 <TrackedLink
                   href="/api/auth/login"
                   eventCategory="Auth"
-                  eventAction="Login"
-                  eventLabel="Login"
+                  eventAction="Login Btn from Header"
+                  eventLabel="Login Btn from Header"
                   className={buttonVariants({
                     size: 'sm',
                     variant: 'ghost',
@@ -100,7 +100,7 @@ const Navbar = async () => {
                 <TrackedLink
                   href="/configure/upload"
                   eventCategory="Product"
-                  eventAction="Click"
+                  eventAction="Create case from Header"
                   eventLabel="Create case from Header"
                   className={buttonVariants({
                     size: 'sm',
